@@ -13,8 +13,8 @@ def hello_t(array)
 end
 
 
-hello_t([1, 2, 3, 4, 5, 6]).each do |number| 
-  number+1 
+hello_t([1, 2, 3, 4, 5, 6]) do |number| 
+  puts number+1 
 end
 
 
